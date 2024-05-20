@@ -162,3 +162,42 @@ For both KPI analysis types, Power BI investigates the reasons behind these vari
 * With Target: Ranked by how much a category's value differs from its target (based on Z-scores).
 * Without Target: Ranked by the Z-scores of the KPI value itself.
 In essence, Power BI helps you understand why your KPIs might be deviating from expectations.
+
+### Build a basic dashboard
+
+Now that we introduced you to some of the core concepts in Power BI such as reports, dashboards, and workspaces, let’s see how these different elements would be used to support common business scenario. Managers often want to see how their salespeople are performing. It wouldn't be uncommon for your manager to ask to see your latest sales and profit figures by the end of the day. Many individuals keep those details in an Excel spreadsheet on their computer. Historically, getting that data into a format that a manager can easily consume could take several hours if not days.
+
+With Power BI, we can easily create and share a dashboard with a manager by connecting to a data source such as an Excel spreadsheet on your laptop. While the data sources that you use might be different, the process for building and sharing a dashboard are same.
+
+You need to take the following steps:
+
+* Prepare your data: Preparing the data ensures that it's in a format that Power BI can easily consume.
+
+* Build a report: The report contains the visuals that you want to include in your dashboard. Depending on the scenario, reports can be built in either Power BI Desktop or using the Power BI Service.
+
+* Pin the report visuals to a dashboard: Dashboards are the primary element that users use for viewing data. They can include data from multiple reports as needed.
+
+* Share a link to the dashboard: Any users with the link and the necessary permissions are easily able to view and interact with the data.
+
+### Prepare the data
+
+* Data Cleaning and Transformation: Ensure your data is ready for analysis using Power Query, especially for large datasets or complex sources.
+* Excel Spreadsheets: Data should be in a flat table format with a header row but no totals (handled in Power BI visualizations later).
+* Data Types: Each column should have the correct data type assigned (text, date, number, currency).
+
+### Upload your data to the Power BI service
+
+The Power BI service is where you're able to create reports that connect to your data sources. This includes Excel files that live on your computer. With a few simple clicks, you can attach to a dataset, and Power BI creates a blank dashboard where you're able to place visuals later.
+
+### Build your report
+
+After connecting your data source (like an Excel workbook in this case), you can create or edit reports in Power BI. Here's a breakdown:
+
+* Editing Reports: Reports allow you to visually present your data. You can use the editing view to modify existing reports or create new ones.
+* Fields Pane: This pane lists the available data fields from your connected source (e.g., column headings from your Excel sheet).
+* Visualizations Pane: This pane offers various chart types (bar charts, maps, etc.) to represent your data. Choose the visualization that best suits the information you want to convey. (The example uses bar charts and a map to show unit sales by country).
+* Filters and Controls: Each visualization allows you to customize how data is displayed. You can change what data is shown on the axes (e.g., switch from units sold to profit).
+* Expanding Power BI: Power BI is constantly adding new features. One example is the Power Apps visualization, which lets you create interactive mini-applications within your report. These apps can connect to your data and even take actions based on user interaction (e.g., sending emails based on report insights).
+
+### Pin to a dashboard
+
