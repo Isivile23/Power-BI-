@@ -35,3 +35,35 @@ Power BI reports are collections of visualizations (charts, maps, etc.) built fr
 * Editing view (requires permission): This allows modifying the report's layout and visualizations.
   
 Reports are listed under the Reports tab in a workspace and can be opened from there.  Within apps (collections of reports and dashboards), you can access reports by clicking on dashboard tiles linked to those reports.
+
+#### Dashboards
+
+In Power BI, a dashboard is a single screen that brings together important information from reports and Q&A. It displays these insights as tiles or widgets, allowing you to:
+
+* See everything you need to make a decision at a glance.
+* Monitor key business metrics.
+* Ensure everyone in your team is on the same page with the same data.
+* Track the health of various aspects of your business.
+* Create personalized views of dashboards focused on what matters to you.
+
+Dashboards are listed under the Dashboards tab in a workspace and can be opened directly. Within apps (collections of reports and dashboards), the dashboard is the first thing you see. You can also access reports from the dashboard by clicking on linked tiles.  Depending on how the dashboard was shared with you, you may have viewing or editing permissions.
+
+#### Tempelate Apps
+
+Power BI template apps are pre-built analytics tools for Power BI. They are designed by Power BI partners and allow for easy customization by the end user. This lets businesses leverage the expertise of these partners without extensive coding, and ultimately understand their data better.
+
+### Describe cleaning and transforming data in Power BI Desktop
+
+Working with data from multiple sources often requires cleaning and transformation before it can be analyzed together.
+
+* Data might be in different formats or have unnecessary details.
+
+* Power BI Desktop helps clean and transform data for analysis.
+
+It has three views:
+
+  * Report view: Build and arrange visualizations.
+  * Data view: See the data structure and make changes.
+  * Model view: Manage relationships between different data sets.
+    
+Power Query Editor within Power BI Desktop helps reshape and transform the data for better use in reports and visualizations.
