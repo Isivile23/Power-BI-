@@ -123,3 +123,42 @@ This helps you stay on top of important changes in your data, like a sudden sale
 * Trends: Represents a pattern that is found in time-series datasets. For example, if a company’s sales are steadily increasing through the month of April that would represent a trend.
 
 * Key Performance Indicator (KPI) analysis: Helps you evaluate the current value against a defined target. For example, a company might set a sales goal at 1.2 million, but currently they are at 1 million.
+
+##### Anomalies
+
+In Power BI, anomalies are unexpected spikes or dips in your data over time.  An algorithm is used to define a normal range for the data, and anything outside that range is flagged as an anomaly. There are three main types of anomaly insights:
+
+* Significant anomaly: This is a major deviation from the expected value.
+* Recent anomaly: This is the newest anomaly identified.
+* Anomaly summary: This highlights multiple related anomalies.
+  
+When an anomaly is found, Power BI analyzes your data to see what might be causing it. These potential explanations are ranked by how likely they are to be the true cause. This helps you understand why the anomaly might have happened.
+
+##### Trends
+
+A trend occurs when there's a prolonged increase or decrease in time-series data. There are a series of steps the Power BI algorithm uses to find meaningful trends. It first performs data smoothening, interpolation, and time-series sampling. The trends are then identified for statistical significance based on the slope and length of a change in value. The algorithm removes noise like seasonality and outliers. For example, if sales jump in December, the algorithm doesn't mark that as a noteworthy trend because it's common for sales to jump around the holidays.
+
+There are four main trends flagged:
+
+* Long trend: The trend is significant and is the longest trend within a single series or across multiple series in a visual.
+
+* Steep trend: The trend is significant and is the steepest trend within a single series or across multiple series in a visual.
+
+* Recent trend: The trend is significant and is the most recent trend within a single series or across multiple series in a visual.
+
+* Trend reversal: Recent trend in a single series or across multiple series in a visual where the reversal is significant, compared to the previous trend segment.
+
+When a trend in your data is flagged, Power BI looks for and identifies the categories that most influenced the increase or decrease in the identified trend. Possible explanations are ranked based on the relative contributions from different categories to the increase or decrease in trend.
+
+##### KPI analysis
+
+Power BI analyzes your Key Performance Indicators (KPIs) to see if they are performing as expected. There are two main KPI analysis types:
+
+* With Target: This compares the current KPI value to a specific target and identifies significant variations (high or low) compared to other categories.
+* Without Target: This analyzes the KPI value itself and flags high or low values compared to other categories.
+  
+For both KPI analysis types, Power BI investigates the reasons behind these variations and ranks potential explanations. Here's how the ranking works:
+
+* With Target: Ranked by how much a category's value differs from its target (based on Z-scores).
+* Without Target: Ranked by the Z-scores of the KPI value itself.
+In essence, Power BI helps you understand why your KPIs might be deviating from expectations.
