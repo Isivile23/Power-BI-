@@ -106,3 +106,20 @@ Power BI has multiple insights features that use artificial intelligence (AI):
 
 #### Notifications
 
+In Power BI, notifications are key for staying informed about insights. Here's how it works:
+
+* Power BI analyzes your reports and visuals as you work.
+* If it discovers noteworthy trends or anomalies (called insights), you'll see a notification.
+* You can then choose to explore these insights or dismiss them.
+
+This helps you stay on top of important changes in your data, like a sudden sales increase in a particular region. The notifications focus on the most important insights (top insights) to avoid overwhelming you with information.
+
+### Get insights on report and visuals 
+
+#### Insights
+
+* Anomalies: Represents something that is out of the ordinary from what is expected. For example, a smart thermostat that suddenly reads the temperature as 100 F when it's typically 72 F would be considered an anomaly.
+
+* Trends: Represents a pattern that is found in time-series datasets. For example, if a company’s sales are steadily increasing through the month of April that would represent a trend.
+
+* Key Performance Indicator (KPI) analysis: Helps you evaluate the current value against a defined target. For example, a company might set a sales goal at 1.2 million, but currently they are at 1 million.
