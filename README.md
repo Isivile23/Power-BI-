@@ -67,3 +67,23 @@ It has three views:
   * Model view: Manage relationships between different data sets.
     
 Power Query Editor within Power BI Desktop helps reshape and transform the data for better use in reports and visualizations.
+To begin, select Edit from the Navigator window to launch Power Query Editor. You can also launch Power Query Editor directly from Power BI Desktop by using the Transform Data button on the Home ribbon.
+
+#### Transform data 
+
+* Transforming data is the process of putting data into a format that is useable in your reports. Examples of the available transformations include removing a column from the table, duplicating the column under a new name, or replacing values.
+
+#### Clean data
+
+Power BI prefers data in a columnar format for visualizations and analysis, even though it can import from various sources. Spreadsheets, for instance, might not be ideal as their layout can hinder Power BI's functionalities.
+
+Here's the issue:
+
+* Spreadsheets may have headers spanning multiple columns, confusing Power BI for automated tasks.
+Data cleaning in Power Query helps transform the data into a format suitable for Power BI. This could involve:
+
+* Combining rows with multi-column headers into single rows.
+* Aggregating numeric data for better visualization.
+
+
+
