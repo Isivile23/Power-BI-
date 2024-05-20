@@ -80,10 +80,26 @@ Power BI prefers data in a columnar format for visualizations and analysis, even
 Here's the issue:
 
 * Spreadsheets may have headers spanning multiple columns, confusing Power BI for automated tasks.
+  
 Data cleaning in Power Query helps transform the data into a format suitable for Power BI. This could involve:
 
 * Combining rows with multi-column headers into single rows.
 * Aggregating numeric data for better visualization.
 
+### Describe using AI Insights to spot trends and anomalies
 
+Businesses struggle to find trends and spot oddities in their data as it happens. For instance, a sales drop during the holiday season or a random sales spike in August would be unexpected. Identifying these anomalies quickly is crucial for taking corrective actions.
 
+Power BI's insights come to the rescue! It automatically analyzes your reports, dashboards, and visualizations to uncover trends and anomalies. It even explains these insights to you, so you can understand why they're important. This feature works on any report without any setup, giving you valuable insights from your data straightaway.
+
+Power BI has multiple insights features that use artificial intelligence (AI):
+
+* Insights for reports: Analyzes data and finds anomalies and trends in your data as you interact with reports.
+
+* Insights for individual visuals: Analyzes and explains the fluctuations of data points in visuals.
+
+* Insights for dashboard tiles: Looks at the data being used to render that tile and presents them in interactive visuals.
+
+* Quick Insights for datasets: Automatically generate data insights on a dataset in the Power BI service.
+
+* AI Insights for data models in Power Query: Provide access to pretrained machine learning models from Azure Cognitive Services.
