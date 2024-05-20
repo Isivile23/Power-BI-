@@ -103,3 +103,6 @@ Power BI has multiple insights features that use artificial intelligence (AI):
 * Quick Insights for datasets: Automatically generate data insights on a dataset in the Power BI service.
 
 * AI Insights for data models in Power Query: Provide access to pretrained machine learning models from Azure Cognitive Services.
+
+#### Notifications
+
